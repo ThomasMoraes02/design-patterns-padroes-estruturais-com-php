@@ -7,9 +7,9 @@ use Alura\DesignPattern\EstadosOrcamento\EstadoOrcamento;
 
 class Orcamento
 {
-    public int $quantidadeItens;
-    public float $valor;
-    public EstadoOrcamento $estadoAtual;
+    public $quantidadeItens;
+    public $valor;
+    public $estadoAtual;
 
     public function __construct()
     {
